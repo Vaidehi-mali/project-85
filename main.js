@@ -77,7 +77,7 @@ function up()
         greencar_y = greencar_y - 10;
         console.log("When up arrow is pressed, x= " + greencar_x + " | y = " +greencar_y);
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
@@ -89,7 +89,7 @@ function down()
         greencar_y = greencar_y + 10;
         console.log("When down arrow is pressed, x=" + greencar_x + "| y =" +greencar_y);
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
@@ -113,7 +113,7 @@ function right()
         greencar_x = greencar_x + 10;
         console.log("When right arrow is pressed, x =" + greencar_x + "| y=" +greencar_y);
         uploadBackground();
-        uploadrover();
+        uploadgreen();
     }
 }
 

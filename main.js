@@ -101,7 +101,7 @@ function left()
         greencar_x = greencar_x - 10;
         console.log("When left arrow is pressed, x=" + greencar_x + "| y=" +greencar_y);
         uploadBackground();
-        uploadrover();
+        uploadgreencar();
     }
 }
 
